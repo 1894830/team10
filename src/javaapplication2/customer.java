@@ -15,22 +15,10 @@ public class customer extends superclass{
     String name;
     String location;
     
-    public customer( String name, String location) {
+    public void cust( String name, String location) {
        
-        super(name, location);
-    }  
-    void setName(String Name) {
-        name=Name ;
-    }
-
-    void setAddress(String Location) {
-         location=Location ;
-    }
-    String getName(String Name) {
-        return name ;
-    }
-
-    String getAddress(String Location ) {
-         return location;
+        System.out.println(" "+name);
+        System.out.println(" "+location);
     }
 }
+   
